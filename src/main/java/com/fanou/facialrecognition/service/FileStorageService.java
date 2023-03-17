@@ -15,7 +15,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
 import com.fanou.facialrecognition.model.UploadedImage;
-
 @Service
 public class FileStorageService{
     @Autowired

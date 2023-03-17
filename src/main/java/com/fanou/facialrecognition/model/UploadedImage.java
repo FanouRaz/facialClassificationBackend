@@ -24,7 +24,6 @@ public class UploadedImage {
     private Integer image_id;
     private String path;
     private String label;    
-
     @ManyToOne
     @JoinColumn(name="id",nullable=false)
     private User user;

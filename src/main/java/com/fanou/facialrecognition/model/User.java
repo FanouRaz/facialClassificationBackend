@@ -9,10 +9,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import java.util.ArrayList;
 import java.util.Set;
 
-import com.fanou.facialrecognition.model.UploadedImage;
 
 @Entity
 @Getter

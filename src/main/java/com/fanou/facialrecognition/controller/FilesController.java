@@ -1,7 +1,6 @@
 package com.fanou.facialrecognition.controller;
 
 import java.util.List;
-import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.Resource;
@@ -15,10 +14,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
-import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilder;
 
 import com.fanou.facialrecognition.service.FileStorageService;
-import com.fanou.facialrecognition.service.ImagePredictionService;
 import com.fanou.facialrecognition.service.UploadedImageService;
 import com.fanou.facialrecognition.message.FileResponseMessage;
 import com.fanou.facialrecognition.model.UploadedImage;

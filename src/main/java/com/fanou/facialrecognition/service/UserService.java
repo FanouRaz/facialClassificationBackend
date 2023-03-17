@@ -1,11 +1,11 @@
 package com.fanou.facialrecognition.service;
 
+import java.util.ArrayList;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import com.fanou.facialrecognition.repository.UserRepository;
 import com.fanou.facialrecognition.model.User;
-
-import java.util.ArrayList;
 
 @Service
 public class UserService {

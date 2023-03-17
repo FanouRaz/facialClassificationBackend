@@ -7,6 +7,4 @@ import lombok.Setter;
 @AllArgsConstructor
 @Setter
 @Getter
-public class FileResponseMessage {
-    private String message;    
-}
+public class FileResponseMessage {private String message;}

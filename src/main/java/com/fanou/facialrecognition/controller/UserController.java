@@ -16,7 +16,6 @@ public class UserController {
     @Autowired
     private UserService userService;    
     
-
     @PostMapping(path="/addUser")
     public String addUser(@RequestBody User user){
         return userService.addUser(user);

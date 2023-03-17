@@ -16,7 +16,7 @@ public class FacialrecognitionApplication implements CommandLineRunner {
 	public static void main(String[] args) {
 		SpringApplication.run(FacialrecognitionApplication.class, args);
 	}
-
+	
 	@Override
 	public void run(String... arg) throws Exception{
 		storageService.init();

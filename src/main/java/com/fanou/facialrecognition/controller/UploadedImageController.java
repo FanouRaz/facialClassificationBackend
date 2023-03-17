@@ -19,5 +19,4 @@ public class UploadedImageController {
     public String addImage(@RequestBody UploadedImage image){
         return imageService.addImages(image);
     }
-
 }
